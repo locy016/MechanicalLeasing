@@ -1,0 +1,355 @@
+body {
+    margin: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+h1 {
+  margin: 0;
+  padding:3%;
+  width: 94%;
+  font-family: 'Microsoft YaHei';
+  background: #EEE url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAHklEQVQImWNkYGBgYGD4//8/A5wF5SBYyAr+//8PAPOCFO0Q2zq7AAAAAElFTkSuQmCC) repeat;
+  text-shadow: 5px -5px black, 4px -4px white;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+}
+/* 渐变色背景 */
+.gradient {
+    background: -moz-linear-gradient(
+      top,
+      rgb(25, 103, 168) 0%,
+      rgb(32, 100, 156) 100%
+    );
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0%, rgb(25, 103, 168)),
+      color-stop(100%, rgb(32, 100, 156))
+    );
+    background: -webkit-linear-gradient(
+      top,
+      rgb(25, 103, 168) 0%,
+      rgb(32, 100, 156) 100%
+    );
+    background: -o-linear-gradient(
+      top,
+      rgb(25, 103, 168) 0%,
+      rgb(32, 100, 156) 100%
+    );
+    background: -ms-linear-gradient(
+      top,
+      rgb(25, 103, 168) 0%,
+      rgb(32, 100, 156) 100%
+    );
+    background: linear-gradient(
+      to bottom,
+      rgb(25, 103, 168) 0%,
+      rgb(32, 100, 156) 100%
+    );
+  }
+.backdrop{
+    background: #ffffff
+}
+.win-title{
+    font-size: 1rem;
+    color: #ffffff;
+    margin:1rem 0 1rem .5rem;
+    text-align: left;
+}
+.win-title span{
+    padding: 0 1.5rem .5rem .5rem;
+    /* border-bottom:1px solid rgba(100, 150, 210, 1); */
+}
+.el-table td, .el-table th{
+  text-align: center !important;
+  background: rgba(0,0,0,0);
+  color: #333 !important;
+}
+.el-table {
+  color: #ffffff;
+}
+.p-1{
+  padding:.25rem;
+}
+.p-2{
+  padding:.5rem;
+}
+.p-3{
+  padding:.75rem;
+}
+.p-4{
+  padding:1rem;
+}
+.m-auto{
+  margin: auto;
+}
+.m-1{
+  margin:.25rem;
+}
+.m-2{
+  margin:.5rem;
+}
+.m-4{
+  margin:1rem;
+}
+.mt-2{
+  margin-top:.5rem;
+}
+.mt-4{
+  margin-top: 1rem;
+}
+.mr-2{
+  margin-right:.5rem;
+}
+.mb-2{
+  margin-bottom:.5rem;
+}
+.mb-4{
+  margin-bottom:1rem;
+}
+.ml-2{
+  margin-left:.5rem;
+}
+.mr-4{
+  margin-right: 1rem;
+}
+.ml-4{
+  margin-left: 1rem;
+}
+.pt-2{
+  padding-top: .5rem;
+}
+.pt-3{
+  padding-top: .75rem;
+}
+.pt-4{
+  padding-top: 1rem;
+}
+.pl-4{
+  padding-left: 1rem;
+}
+.pr-4{
+  padding-right: 1rem;
+}
+.pb-4{
+  padding-bottom: 1rem;
+}
+.w-25{
+  width: 25%;
+}
+.w-50{
+  width: 50%;
+}
+.w-75{
+  width: 75%;
+}
+.w-100{
+  width: 100%;
+}
+.color-success{
+  color:#00ff00;
+}
+.color-warning{
+  color:#FF0000;
+}
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.color-white{
+  color: #FFFFFF;
+}
+.color-blue{
+  color: #0000FF;
+}
+.color-green{
+  color: #33ff00;
+}
+.color-red{
+  color:#FF0000;
+}
+.color-cyan{
+  color:#409EFF;
+}
+.color-gray{
+  color: #979797;
+}
+.color-group-cyan{
+  color:#4e72b8;
+}
+.font-s1{
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.lh-1{
+  line-height: 1rem;
+}
+.lh-2{
+  line-height: 2rem;
+}
+.lh-3{
+  line-height: 3rem;
+}
+.font-b{
+  font-weight: bold;
+}
+.fs-150{
+  font-size: 150%;
+}
+.fs-200{
+  font-size: 200%;
+}
+.ls-2{
+  letter-spacing:2px
+}
+.ls-3{
+  letter-spacing:3px
+}
+.ls-4{
+  letter-spacing:4px
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.select-background{
+  background: transparent;
+}
+.select-background input{
+  background: transparent;
+  color: #CACACA;
+}
+.select-background .el-input__inner{
+  border: 0;
+}
+.el-dialog{
+  /* background: rgba(242, 243, 245, 0.95); */
+  /* background:rgba(39,92,144,1) */
+  /* height: 15rem; */
+}
+.el-table,
+.el-table__expanded-cell {
+  background-color: transparent !important;
+  color: #ffffff;
+}
+el-table th,
+.el-table tr,
+.el-table td {
+  background-color: transparent !important;
+  color: #ffffff;
+}
+.el-dialog__title {
+  /* color: #ffffff; */
+}
+.el-table td, .el-table th.is-leaf {
+  border-bottom: 1px solid rgba(226, 230, 231,.5);
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/ 
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px
+}
+/*定义滚动条轨道*/ 
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em
+}
+/*定义滑块 内阴影+圆角*/ 
+::-webkit-scrollbar-thumb {
+    background-color: rgba(25, 103, 168,.3);
+    /* background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.4) 50%,rgba(255,255,255,.4) 75%,transparent 75%,transparent); */
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em
+}
+.el-tabs--border-card {
+  background: rgba(0,0,0,.0) !important;
+  border: none;
+  box-shadow: none;
+}
+.el-tabs--border-card>.el-tabs__header {
+  background: rgba(0,0,0,.0) !important;
+  border-bottom: none;
+  margin: 0;
+}
+.el-tabs--border-card>.el-tabs__header .el-tabs__item {
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  border: 1px solid transparent;
+  margin-top: -1px;
+  color: #fff;
+}
+.el-table::before{
+  height: 0;
+}
+.el-table__footer-wrapper td{
+  border: 0;
+}
+.el-form-item__label {
+  /* text-align: right;
+  vertical-align: middle;
+  float: left;
+  font-size: 14px;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 12px 0 0;
+  box-sizing: border-box; */
+}
+.el-table__column-filter-trigger i {
+  color: #fff;
+  font-size: 12px;
+  transform: scale(.75);
+}
+.el-form-item {
+  /* margin-bottom: 0px; */
+}
+.el-dialog__body {
+  /* padding: 10px 20px;
+  color: #606266;
+  font-size: 14px;
+  word-break: break-all; */
+}
+.el-tabs--border-card>.el-tabs__content {
+  padding: 0px;
+}
+.el-tabs__item.is-active {
+  color: #fff;
+}
+.el-popper[x-placement^=right] {
+  margin-bottom: 12px;
+  background-color: rgba(15, 60, 100, .6);
+  border: none;
+  color: #fff;
+}
+.el-progress-bar__outer{
+  background: rgba(145, 141, 141, 0.3);
+  color:#169BD5
+}
+.navigation{
+  background:rgb(237,237,237);
+  height:90px;
+  width:100%;
+  overflow:hidden;
+  border-bottom:5px rgb(96,186,227) solid;
+}
+.text-overflow{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.block{
+  display: block;
+}
